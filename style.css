@@ -10,33 +10,77 @@
   margin: 0px;
   box-sizing: border-box;
   font-family: "NanumSquareRound";
+  font-weight: bold;
 }
+/*   title bar   */
 .version {
+  font-family: "Roboto";
   font-size: 12px;
+  font-weight: lighter;
 }
 header {
   display: flex;
   justify-content: center;
   align-items: baseline;
 }
+/*   user input   */
 .participant,
 .cordinator,
 .okbtn {
-  margin: 20px 36px;
+  padding: 10px 36px 30px 36px;
 }
-.participant > div,
-.cordinator > div {
+.participant ul {
+  list-style: none;
+}
+.participant li {
+  margin-bottom: 10px;
+}
+.orgtxt {
   font-size: 18px;
   font-weight: bolder;
   color: #ff8836;
+  margin-bottom: 15px;
 }
-.participant > ul {
-  list-style: none;
+.txt {
+  width: 51px;
+  font-size: 16px;
+  display: inline-block;
 }
-.okbtn > button {
+.box {
+  width: 251px;
+  height: 37px;
+  border: 1px solid #707070;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: lighter;
+  color: #717171;
+  padding: 8px;
+}
+#partimail {
+  color: black;
+}
+#cordimail {
+  width: 201px;
+}
+.location {
+  width: 42px;
+  height: 37px;
+  margin-left: 7px;
+  background-color: #ffffff;
+  border: 1px solid #707070;
+  border-radius: 5px;
+}
+.inputel {
+  display: flex;
+  align-items: center;
+}
+/*   ok button   */
+.okbtn > input {
   width: 302px;
   height: 41px;
   background-color: #ff8836;
+  font-size: 18px;
+  font-weight: bolder;
   color: #ffffff;
   border: none;
   border-radius: 5px;

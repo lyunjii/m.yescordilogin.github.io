@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="img/yestoslide_favicon_real.png" type="image/png" sizes="16x16">
   <title>YesToSlide</title>
 </head>
 <body>
@@ -15,26 +16,31 @@
     <span class="version">v.1.0.0</span>
   </header>
   <section class="participant">
-    <div>참가자</div>
+    <div class="orgtxt">참가자</div>
     <ul>
       <li>
-        <label for="partimail">Gmail</label>
-        <input id="partimail" type="email" value="alisonts137@gmail.com">
+        <label class="txt" for="partimail">Gmail</label>
+        <input class="box" id="partimail" type="email" value="alisonts137@gmail.com">
       </li>
       <li>
-        <label for="partiname">이름</label>
-        <input id="partiname" type="text" placeholder="본인 이름을 입력하세요">
+        <label class="txt" for="partiname">이름</label>
+        <input class="box" id="partiname" type="text" placeholder="본인 이름을 입력하세요">
       </li>
     </ul>
   </section>
   <section class="cordinator">
-    <div>코디네이터</div>
-    <label for="cordimail">Gmail</label>
-    <input id="cordimail" type="email" placeholder="코디네이터 Gmail을 입력하세요">
-    <button class="location"> </button>
+    <div class="orgtxt">코디네이터</div>
+    <div class="inputel">
+      <div>
+        <label class="txt" for="cordimail">Gmail</label>
+        <input class="box" id="cordimail" type="email" placeholder="코디네이터 Gmail을 입력하세요">
+      </div>
+        <input class="location" type="button">
+        <!--<button class="location"> </button>-->
+    </div>
   </section>
   <section class="okbtn">
-    <button>확인</button>
+    <input type="button" value="확인">
   </section>
 
 
