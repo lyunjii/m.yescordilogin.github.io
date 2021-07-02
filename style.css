@@ -12,10 +12,15 @@
   font-family: "NanumSquareRound";
   font-weight: bold;
 }
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 /*   title bar   */
 .version {
   font-family: "Roboto";
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: lighter;
 }
 header {
@@ -32,18 +37,21 @@ header {
 .participant ul {
   list-style: none;
 }
-.participant li {
+.participant li,
+.inputel {
   margin-bottom: 10px;
+  display: flex;
+  align-items: center;
 }
 .orgtxt {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: bolder;
   color: #ff8836;
   margin-bottom: 15px;
 }
 .txt {
   width: 51px;
-  font-size: 16px;
+  font-size: 1rem;
   display: inline-block;
 }
 .box {
@@ -54,7 +62,7 @@ header {
   font-size: 14px;
   font-weight: lighter;
   color: #717171;
-  padding: 8px;
+  padding-left: 8px;
 }
 #partimail {
   color: black;
@@ -70,16 +78,12 @@ header {
   border: 1px solid #707070;
   border-radius: 5px;
 }
-.inputel {
-  display: flex;
-  align-items: center;
-}
 /*   ok button   */
 .okbtn > input {
   width: 302px;
   height: 41px;
   background-color: #ff8836;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: bolder;
   color: #ffffff;
   border: none;
