@@ -34,12 +34,12 @@ header {
 .okbtn {
   padding: 10px 36px 30px 36px;
 }
-.participant ul {
-  list-style: none;
-}
-.participant li,
 .inputel {
   margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+.inputel div {
   display: flex;
   align-items: center;
 }
