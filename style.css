@@ -6,5 +6,38 @@
   font-style: normal;
 }
 * {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
   font-family: "NanumSquareRound";
+}
+.version {
+  font-size: 12px;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+.participant,
+.cordinator,
+.okbtn {
+  margin: 20px 36px;
+}
+.participant > div,
+.cordinator > div {
+  font-size: 18px;
+  font-weight: bolder;
+  color: #ff8836;
+}
+.participant > ul {
+  list-style: none;
+}
+.okbtn > button {
+  width: 302px;
+  height: 41px;
+  background-color: #ff8836;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
 }
