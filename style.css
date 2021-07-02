@@ -77,6 +77,13 @@ header {
   background-color: #ffffff;
   border: 1px solid #707070;
   border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.location img {
+  width: 21px;
+  height: 30px;
 }
 /*   ok button   */
 .okbtn > input {
